@@ -1,6 +1,7 @@
 package day01;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,6 +20,8 @@ public class practice03 {
         // "https://testpages.herokuapp.com/styled/calculator" adresine gidin
 
         driver.get("https://testpages.herokuapp.com/styled/calculator");
+
+// time out exception atiyor . Bir class ta bir kez kullanilir
 
 
         // ilk kutucuga 20 giriniz
