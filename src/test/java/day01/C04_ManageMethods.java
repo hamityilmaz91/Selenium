@@ -39,5 +39,6 @@ public class C04_ManageMethods {
         //Sayfayı kapatın:
         Thread.sleep(2000);
         driver.close();
+        //v2
     }
 }
